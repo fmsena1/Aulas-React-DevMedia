@@ -1,11 +1,12 @@
-import React from 'react';
 import './App.css';
-import Rotas from './componentes/Rotas/index'
+import Rotas from './Rotas';
 
-const App = () => (
-  <div className="App">
-    <Rotas/>
-  </div>
-);
+function App() {
+  return (
+    <div className="App">
+      <Rotas />
+    </div>
+  );
+}
 
 export default App;
